@@ -58,7 +58,8 @@ go get -d github.com/codeskyblue/gosuv
 cd $GOPATH/src/github.com/codeskyblue/gosuv
 go generate # package html resources into go
 go build -tags vfs
-export GOOS=linux  && go build -tags vfs（mac打linux包）
+#### mac打linux包
+export GOOS=linux  && go build -tags vfs
 ```
 
 ## Quick start
