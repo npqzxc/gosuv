@@ -1,0 +1,85 @@
+/* */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: #1b926c;
+    border-color: #1fa67a;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar ul.navbar-nav>li>a {
+    color: white;
+}
+
+.realtime-log {
+    height: 40em;
+}
+
+.status {
+    background-color: gray;
+    border-radius: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: white;
+}
+
+small.user {
+    color: #cccccc;
+}
+
+.color-red {
+    color: red;
+}
+
+.panel-body{
+    padding: 0px;
+}
+
+.table {
+    margin: 0px;
+}
+
+.btn-xs{
+    margin-left: 10px;
+}
+.btn-success{
+    margin-top: -4px;
+    margin-left: 25px;
+}
+input[type=checkbox] {
+    cursor: pointer;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+}
+
+input[type=checkbox]::after {
+    position: absolute;
+    top: 0;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0px;
+    text-align: center;
+    content: ' ';
+    border-radius: 3px
+}
+
+input[type=checkbox]:checked::after {
+    content: "✓";
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #1b926c;
+}
+
