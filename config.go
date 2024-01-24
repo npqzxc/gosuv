@@ -28,8 +28,8 @@ type Configuration struct {
 
 func readConf(filename string) (c Configuration, err error) {
 	// initial default value
-	c.Server.Addr = ":8089" // in memory of 08-31 13:13
-	c.Client.ServerURL = "http://localhost:8089"
+	c.Server.Addr = ":11313" // in memory of 08-31 13:13
+	c.Client.ServerURL = "http://localhost:11313"
 
 	data, err := ioutil.ReadFile(filename)
 	if err != nil {

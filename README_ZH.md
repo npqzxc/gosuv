@@ -20,7 +20,7 @@ GoSuv是GO语言重写的类supervisor的一个进程管理程序，简单易用
     Server is running
     ```
 
-默认端口 11113  本机测试请使用[http://localhost:11313](http://localhost:11313)
+默认端口 11313  本机测试请使用[http://localhost:11313](http://localhost:11313)
 
 ![RunImage](docs/gosuv.gif)
 
